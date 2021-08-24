@@ -13,8 +13,8 @@ void bankAgent(){
 int main(){
     using namespace boost::lambda;
     
-    //boost::thread thread1(bankAgent); 
-    //thread1.join(); 
+    boost::thread thread1(bankAgent); 
+    thread1.join(); 
 
 
     cout << "Hello World! I am here." << endl;
