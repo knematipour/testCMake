@@ -13,11 +13,11 @@ void bankAgent(){
 int main(){
     using namespace boost::lambda;
     
-    boost::thread thread1(bankAgent); 
+    //boost::thread thread1(bankAgent); 
     //thread1.join(); 
 
 
-    cout << "Hello World!" << endl;
+    cout << "Hello World! I am here." << endl;
     cout << "Using adder function: " << add(51.1f,72.4f) << endl; 
     return 0; 
 }
