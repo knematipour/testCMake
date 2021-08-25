@@ -2,9 +2,9 @@ cmake_minimum_required(VERSION 3.10.2)
 
 project(testCMake)
 
-set(BOOST_ROOT "/usr/local/Cellar/boost/1.76.0")
-set(Boost_INCLUDE_DIR "/usr/local/Cellar/boost/1.76.0/include")
-set(Boost_LIBRARY_DIR "/usr/local/Cellar/boost/1.76.0/lib")
+set(BOOST_ROOT "/Users/kaveh/projects/boost_1_77_0")
+set(Boost_INCLUDE_DIR "/Users/kaveh/projects/boost_1_77_0")
+set(Boost_LIBRARY_DIR "/Users/kaveh/projects/boost_1_77_0")
 find_package(Boost 1.76.0)
 if(NOT Boost_FOUND)
     message(FATAL_ERROR "Could NOT find boost")
