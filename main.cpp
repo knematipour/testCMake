@@ -15,7 +15,7 @@ void bankAgent(){
 
 int main(){
 
-    boost::thread_group tgroup; 
+    //boost::thread_group tgroup; 
     
     //boost::thread thread1(bankAgent); 
     //thread1.join(); 
